@@ -32,6 +32,20 @@
 
 ### 📂 Портфолио проектов (10 автономных локальных систем)
 
+## Флагманские проекты (демо-срезы)
+
+Все проекты — приватные, но содержат полные демо-срезы (Docker, README, инструкции). По запросу предоставлю доступ или покажу логи/метрики.
+
+| Проект | Назначение | Ключевые технологии | Демо-ссылка |
+|--------|------------|---------------------|-------------|
+| **[CURSUS_PERPETUUS](https://github.com/KnyazVladimir86/CURSUS_PERPETUUS)** | Автономная мультиагентная система разработки ПО. Оркестратор на чистом `asyncio`, изоляция агентов в Docker. | Python, asyncio, Docker, AST-валидация | [→ GitHub](https://github.com/KnyazVladimir86/CURSUS_PERPETUUS) |
+| **[VIVA_INTEGRA](https://github.com/KnyazVladimir86/VIVA_INTEGRA)** | Платформа анализа медицинских документов. OCR + ансамбль агентов, Human-in-the-loop, шифрование. **PII полностью удалён.** | FastAPI, Qwen2.5-VL, Fernet, Docker | [→ GitHub](https://github.com/KnyazVladimir86/VIVA_INTEGRA) |
+| **[MERCATOR_REALIS](https://github.com/KnyazVladimir86/MERCATOR)** | Торговая платформа для MOEX. ML-ансамбль, контроль рисков, исполнение сделок. | LightGBM, T-Invest API, WebSocket, ISS Poller | [→ GitHub](https://github.com/KnyazVladimir86/MERCATOR) |
+| **[VOX_DOCTRINA](https://github.com/KnyazVladimir86/VOX_DOCTRINA)** | Система транскрибации и семантического анализа врачебных консультаций. | Whisper, LangChain, FastAPI, conftest.py | [→ GitHub](https://github.com/KnyazVladimir86/VOX_DOCTRINA) |
+| **[PROMETHEUS_Logistics](https://github.com/KnyazVladimir86/PROMETHEUS)** | Мониторинг дрейфа данных и качества ML-моделей в реальном времени. | DriftDetector, null-bytes sanitizer, CI/CD | [→ GitHub](https://github.com/KnyazVladimir86/PROMETHEUS) |
+
+> **Остальные проекты (ANIMA, MEMORIA, SONOMATIX, STRATA_MATRIX)** — специализированные платформы под узкие задачи (LoRA-обучение, событийная шина, аудио-платформа, анализ керамики). Полный список и доступ — по запросу.
+
 Все проекты спроектированы как самодостаточные локальные веб-приложения с единым регламентом сборки, автоматической проверкой портов и окружения (`run.bat` / `run.sh`), строгими контрактами API и нулевым количеством заглушек.
 
 #### 🤖 Автономные агенты и локальный LLM-инференс
